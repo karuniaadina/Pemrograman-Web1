@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 02_Checkout Karunia SI05</title>
+</head>
+
+<body style="border: 2px solid black; margin: 1cm 6cm; font-family: Arial, Helvetica, sans-serif;">
+    <div style="padding-left: 1cm; display: flex; background-color: rgb(202, 202, 202); padding-top: 20px; padding-bottom: 20px;">
+        <img src="https://static.vecteezy.com/system/resources/previews/001/209/957/non_2x/square-png.png" alt="Market Icon" style="width: 40px; height: 40px; margin-top: 7px; margin-right: 5px;">
+        <a style="padding-top: 9px; font-size: 30px;"></a>OnlineShop Karunia
+        <div style="padding-top: 20px;">
+            <a target="_blank" style="padding-top: 50px; color: blue;" href="">
+                Category 1
+            </a>
+
+            <a target="_blank" style="color: blue;" href="">
+                Category 2
+            </a>
+            &nbsp;|
+            <a target="_blank" style="color: blue;" href="">
+                Category 3
+            </a>
+        </div>
+        <div style="display: flex; padding-left: 180px; padding-right: 1cm;">
+            <a target="_blank" style="padding-top: 3px;" href="https://www.tokopedia.com/search" title="Search Page">
+                <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" alt="Search Icon" style="padding-top: 10px; width: 30px;">
+            </a>
+            <a target="_blank" style="text-decoration: none; display: flex;"
+                href="" title="Cart Page">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Shopping_cart_font_awesome.svg/1200px-Shopping_cart_font_awesome.svg.png" alt="cart icon" style="padding-top: 10px; width: 35px; height: 30px;">
+                <p style="color: black;">&nbsp;Cart(1)</p>
+            </a>
+        </div>
+    </div>
+    <hr style="margin-top: -1px; height: 3px;background-color: black;" />
+    <div style="display: flex; justify-content: space-between;">
+        <div>
+            <div style="display: flex;">
+                <div style="margin-left: 1cm; margin-top: 1cm;">
+                    <div style="display: flex;">
+                        <img style="padding-right: 10px; width: 50px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///8AAAC+vr74+Pjj4+OdnZ2/v7+Dg4Oenp7KysorKyv19fVtbW3x8fH7+/u6urrc3NzS0tJRUVF3d3evr6/p6emoqKiWlpYXFxdbW1vd3d05OTlWVlYvLy9nZ2dOTk6MjIwODg58fHwcHBw2NjZISEgjIyNDQ0MSEhJhYWH9x+x0AAALlklEQVR4nOVdbWOqOgyeQ4eoiCjgdnSK8+zt///BO+b1zKZpCZC06J5vc0obmua96d2dNII4TYpRuNtvJsfDYTAYHA7HyWa5C0dFksaB+PiSyBdJufs7sOPvLswWue+ptkCazd4PNcRd4H2Wpb6n3ADpeEmn7QKv42ugMk5mrag7Y5bFvkmwYVhsO5F3wnY89E0Ijmm2ZyDvhNdi6pscDdGOjbwTPiPfJF0iHj0z01fhbd2XLblYCZB3wqoPwjVtpxmo2Ptm1mgjSl+FjU8aIz7pacOrLxpTDuVHw9bHfswb2C6Tp7LIkmgxzL98iSDOh4soyYryaUJ/xMq1XJ2vSfN6XoZfHpLlOXl6H25pqmY0d0bdFyLC29+HD0PapObDh5AgkZ/dbceglkE/wqip2TWNyre6x84c+ctJzTxes7aWc5691jw7YaUER2w3QPdFN389z+z8+ikucR4eLcM/rjn8nuHaxq6PDwxDWBBaxn66ZxsmerKME7INo2NokesvvNGk3PIun8U85HvjmMc1f7QsHh2N4/FxiwKzkl/LSPFgZByxlBjOaIUK0VfBbDot2QfNTfJtJRtRmb4Yxn1j3hfpBz7OdsE7DoKFQa4eWP0Nk4wR2vHuRy8MDOrK2p8bWLXgGgDf7hOXnneKOzMjnqeX+AK6zYsF+DKuOZ6NGxduduAlHtB5vHR/MErg1kesdopq5M5WKsqiZffp9mYyqJAR9l8sQDm1k7jB1MTEZ+4rx2RqB6WBvbKl37zXFAsBtBZ7KfKwGed0WwELg7U04HLEFi0559oSiLz5aGWGB4g3MeaebSuM9Ym9tbE/EIZnswM7AhGAy+ZPQfRExj/XlsgY9g/isfSHQJTEhgJ12F8WPQFh1GZ6Wg8b9kPI/EAXN89Nfq6b26XMPDtAVxoNjHDdlvGv6HXoqp9sMMdabqKFLHYATZ89Up26T/jLSf9qsCpMNTP8k/ZDPT/Y00o6ROKT8otBe/Z2Dl1gULhN28Cl8DS7QBOou/rfRPA3W/l5doAWu6lluLm2e/tSIIgjhtN9rgtTawZ3fzfhCdpWrAmh5vD7DPFIYWihYrs3DMXMpP8nPgK4r6z2lxaZ8V3dSYEmG21RG2gHrZxNswtgjbJF+mtvw2mxXGvM6ZwHa67cp1/aAQYk9qYvwiXst66/BNT7pkWENdvyOXouLMDM3/GvQUHaf1X4A6gUcXEKy9L76RTimIK5P2FfgivNkkB2Bmht/kG+A7VK/62ZS0CvFtli0EhnKnPogDhKknuytIM1cLpLBJb56HkJh/982y2t8jkA4TN9hSZ1X3CJXNkybyQawRJN4P+htvfq92pJkx3BfITbDGp9UJ/uVRci+UFKPBPoRBCxgfrE5wF5tG72b71cgN67+lJAtgpVmI5gKAwm5BVAmaaaDQT2jEfHF2HRE+oDRiBko3gYIHh8FJt/Lcyl3W/1Pwal75ehepBv9GewmQmkLCJQGJc5XeBfectT2AgkhLMBK174t0CVeMulGffgCfUPAHGmH6UOJKmvjL11BQcU1gK77UeagiipJ2VYRyBBwgOV+KNh1M9fJckwo4ZFSRTCWNr5YxC+8FM3U7uCJArBfjv7XuDteWFSAoGUyBhg03OJjGrQeFH3FAJJ8WnVSzybNepzSjk6jKjfgwNjiFAFqAQ6fQi2oQeblLSCNCUG/NxTVBHsTvdBRBqBtIkBN/AkNVVt6N6gIRJINJZVoXLSiO/KZ5LniFEQCaTmatWN+L13gYB1nbcnEkhOoqhO4qFSfSDW7divoBJIfvHAv6hejCpoaos1eEFSE4Mmmcy5WhpbiRqVcd3mDKkr2CRVq3pQlVjZaZ84gwSBYMUqt1ltv+miecgZIgSC0sqNlrRx2JCJfw9+A5hoAYxgNI7mD7PRel00brgjIEX/B9B+MSS54dPKf5Lrs+FMZFi0gvr7FLCtlrGxQo3evTfhcCEWraBm0RIQvGkSzs+1FsH0OKvcCsLgfgHGKukP+oNMiFolJkkgqBseA/VBDyTmaDslGolSQuYElStDoPDpUShDwyoKiYJ7sIJqhu6AP0VW+IZWGRQSRVn0Dqr8JSj1IocwzBOrI1GaQBDI2ADZSvXCbF3p7CSKEwjcwQnIuVG9Q2tjTxuJwnuwguohHu8Oyt/UaLB9emYSZaXoCarZdgAUEs1SWANHJVGeRe9grvAAVoMY7tHKpWkkOmDRO81bAhQSH1JLIUqikxW8g1tIaA0xEl0RCNfwoPzJtA8xEl0ImW/AfahSyCNLMRLd7MEKUJYK6EOMRGcrqOtDfpsGI9HVHqwAbRp2uxQj0SWBml2qekHdfQuMRHd7sAL0LZj9Q4xEpyuo+4e8Pj5GokMh8w3o46scVNIfhMVpMNS16D6D7RgZjNO0j7VR1D4dfOfkYKytQ7x0cegjgVq8tEvMm28VOU86qk9OYd6iWUEUF4mcBGp5i265J6q4sYO1dkDLPXXMH3KsIu9hXC1/2DUH3J1E5tPGeg5Y/aR5wVBXErmPU+t5/M61GN1I5CYw0GsxutfTdCGRvUAJqadhqIlqL1H5T/wjNVEcdW1tV1GgpQFS18ZSm9jOgJPo2YDVJrLUl7ZZRQkC0fpSnhrh5ntRpOsGWiPMVOf959CMQJkyT7TOm6tWv9leFOqbokYezkKF67xFE0YVItBw3oLtzAydRKnONyAE+C/8q37c4dwTlVHFWvsYzj0xnl2jKQ2xWnLj2TXG84cURpVrzmQ8f8h5hrSeRMHTAMYzpKzngOv2omB7LfM5YN6z3Pa9KNk/zHKWm/c8vo1RRRukWc7jM/dUMBtwogTaeipw98UwMarskSNrXwzu3iY4o8r28LP3NmHvT4MxqvChMXt/Gv4eQznMqk2EW/jV9RiCfaIYmn+oKqiUbq1V1ydKotfXtDgHud5G4n2n6nt9wUVm6uCS3idJ5KIzGmy6h7zS2+q5h1UO3lbfRFSswfqRa+p9CfcY7h5dc/9SuMUMid538LWb60H7C/oIa11ob64X9C/o562t9s31ZNf9upvrq6+9jmu8G8HOeNqVH/3nU+1+ixojXysGvbo7Sur6A8+1O+Vu7Z6Zq78riCAbr/u+J8oVeNd9ZxdJ9t/8vWtaZPGK7s4j3En2jdu///D277D8BfeQ/oK7ZH/BfcC3f6fzL7iX+9ruVm9jPQdv+nP8Xz5TATmw+dbKU88/9Cc57/2JQFcTg4+WOWvtNsQB3S6Sg67oO/TR022bwWDv10adYqdzO8R1sfPME5+eRq4Z24OOAhA9he0vFI4xVVdrC1GL/oxURMYw5Dl1I/wLWx/hKXQLckh3lEQPnIpyKE+SE2XUwcptNDzQAr88LHoC3vRh4jKnkWIylNHGMjTBWLlKvs1hOuV/MNrJ+B5wtRsRT45/9NTQBWMp33d48YQP/cE8dI54GidWlbXiYlzCfHkT7FepBMbGSWs5qTrH5XjFPBKDGkeTojEw930pRQY0ypvB4Ljmv34nXps74IhJuKEeZPyHF14ac9P++8KzpHeDm3AnPPG92cggP78hHGeIbM2THtccb3e4Nsnt7zHEc32xlplSsC+6cWte2Fts7Vx4NXXd6F6LtiuZZ3VNpRxd3TDFgkEKHsPGVwlMo7C2e9jMnT8TWYTqGfvwYUgzzefDh5DQ/u3ZaYGW2dhQJ7V8SVLbxszT+3BLeF1fGLkuI8xrWfUHk6eyyJJoMczj4C6I8+EiSrKifMKdPhQrH3GTlNTikwVbX+XKEbF5Yke8+qyQjGBtOD/efVeAmhxUJux901fhj8VI7ohVX44LxCOawG+GybpXZZFRA+VBwq4P7KlimvFJ1n3Wzzqzu2HBoSK3475WCn4jTrqx6yzr1eYzIB23W8rXcV9EJwVpNns/0Il7n2UO77RjQ75Iyt2mhrbNLswWnm5zZ0IQp0kxDnfLzeR4qJb1cDhONstdOC6SNJb3af8DLDqUKgo41PcAAAAASUVORK5CYII=" alt="Success Icon">
+                        <div style="display: flex; flex-direction: column; line-height: 25px;">
+                            Order 121318213
+                            <b style="font-size: 20px;">Thank You, Tiara!</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-left: 1cm; width: 110%;">
+                <hr style="margin-left: 0px; width: 520px;">
+                <p style="font-size: 15px; padding-top: 0cm;">Your order is confirmed.</p>
+                <p style="font-size: 15px; padding-top: 1px; padding-bottom: 15px;">We've accepted your order and we're
+                    getting it ready.</p>
+                <hr style="margin-left: 0px; width: 520px;">
+                <h3>Customer Information</h3>
+            </div>
+            <div style="display: flex;">
+                <div style="margin-left: 1cm;">
+                    <div style="display: flex;">
+                        <div style="display: flex; flex-direction: column; margin-top: -15px;">
+                            <p style="font-size: 15px;"><b>Shipping Address</b></p>
+                            <p style="font-size: 15px; margin-top: -12px;">Emely</p>
+                            <p style="font-size: 15px; color: blue; margin-top: -12px;"><u>12 Waldo Point Road</u></p>
+                            <p style="font-size: 15px; color: blue; margin-top: -12px;"><u>Mishauken, NY 11200</u></p>
+                            <p style="font-size: 15px; color: blue; margin-top: -12px;"><u>United States</u></p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-top: -15px; padding-left: 3cm;">
+                            <p style="font-size: 15px;"><b>Billing Address</b></p>
+                            <p style="font-size: 15px; margin-top: -12px;">Emely</p>
+                            <p style="font-size: 15px; color: blue; margin-top: -12px;"><u>12 Waldo Point Road</u></p>
+                            <p style="font-size: 15px; color: blue; margin-top: -12px;"><u>Mishauken, NY 11200</u></p>
+                            <p style="font-size: 15px; color: blue; margin-top: -12px;"><u>United States</u></p>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <div style="width: 200px; display: flex; flex-direction: column; margin-top: -15px;">
+                            <p style="font-size: 15px;"><b>Shipping Method</b></p>
+                            <p style="font-size: 15px; margin-top: -12px;">UPS Ground (Estimated ship time of 3-7 days)
+                            </p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-top: -15px; padding-left: 60px;">
+                            <p style="font-size: 15px;"><b>Payment Method</b></p>
+                            <div style="font-size: 15px; margin-top: -12px; line-height: 1px; display: flex;">
+                                <img style="width: 40px;" src="https://e7.pngegg.com/pngimages/772/978/png-clipart-logo-visa-credit-card-visa-text-rectangle-thumbnail.png" alt="Visa Logo"> 
+                                <p style="margin-top: 20px; margin-left: 5px;">Ending in 2318 - $23.60</p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-left: 35px; width: 520px;">
+        </div>
+        <aside
+            style="padding: 1px 15px 20px; margin-bottom: 9cm; margin-top: 1cm; background-color: rgb(202, 202, 202); margin-right: 1cm; border: 1px solid black;">
+            <h4>Summary (1 item)</h4>
+            <div style="display: flex; justify-content: space-between;">
+                <p style="font-size: 15px; margin-top: -10px;">Subtotal</p>
+                <p style="font-size: 15px; margin-top: -10px">$20.00</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <p style="font-size: 15px; margin-top: -10px;">Shipping</p>
+                <p style="font-size: 15px; margin-top: -10px">$2.20</p>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: -15px;">
+                <p style="font-size: 15px; margin-top: -10px;">Est. Taxes</p>
+                <p style="font-size: 15px; margin-top: -10px">$1.40</p>
+            </div>
+            <hr />
+            <p style="font-size: 15px; margin-top: -1px; margin-bottom: 2px;">Gift card or discount code</p>
+            <input type="text" name="coupon" placeholder="Enter the code..."><button>Apply</button>
+            <hr style="margin-top: 15px;" />
+            <div style="display: flex; justify-content: space-between; padding-top: 15px;">
+                <p style="font-size: 15px; margin-top: -10px;">Total</p>
+                <p style="font-size: 15px; margin-top: -10px"><strong>$23.60</strong></p>
+            </div>
+        </aside>
+    </div>
+    <hr style="margin-top: -5px; height: 2px;background-color: black;" />
+    <footer style="display: flex; justify-content: space-between;">
+        <div style="display: flex; flex-direction: column; text-align: left; margin-left: 1cm; margin-top: -10px;">
+            <p style="font-size: 20px;"><b>Kshop</b></p>
+            <div style="display: flex; margin-top: -15px; margin-left: -5px; padding-bottom: 10px;">
+                <img style="width: 30px;" src="https://img2.pngdownload.id/20180404/laq/kisspng-credit-card-mastercard-visa-payment-debit-card-visa-5ac4e1ad00c405.7226926315228522690032.jpg" alt="Visa Logo">
+            </div>
+        </div>
+        <p style="margin-left: -160px; margin-top: 15px">
+            <a href=""> Category X</a>
+            &nbsp;|
+            <a href=""> Category X</a>
+            &nbsp;|
+            <a href=""> Category X</a>
+        </p>
+        <div style="display: flex; flex-direction: column; text-align: left; margin-right: 1cm; margin-top: -0.3cm;">
+            <p style="font-size: 16px;">Stay In Touch! Join Our <b>Newsletter.</b></p>
+            <p style="margin-top: -5px; border: black solid 2px; border-radius: 3px;">
+                <input type="text" name="email" placeholder="Enter Email" />
+                <button style="margin-left: -5px; background-color: rgb(95, 95, 95); color: white;">Subscribe</button>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
