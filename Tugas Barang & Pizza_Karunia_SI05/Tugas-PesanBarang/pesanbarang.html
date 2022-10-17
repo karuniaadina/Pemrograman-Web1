@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make A New Order</title>
+</head>
+<body style="font-family: Bahnschrift;">
+    <form action="PemWeb/Tugas-Cart&Checkout/checkout.html">
+    <header style="margin-left: 1cm;">
+        <h1>Make A New Order!</h1>
+        <div style="font-size: 20px;">
+            <nav >
+                    <a href="/Home"> Home </a> &emsp;
+                    <a href="/GenerateLink"> Generate Link </a> &emsp;
+                    <a href="/TransactionHistory"> Transaction History </a> &emsp;
+                    <a href="/Policy"> Policy </a> &emsp;
+                    <a href="/LogOut"> Log Out </a>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <hr style="height: 3px; border-width: 0px;color:rgb(0, 255, 221); background-color: rgb(0, 255, 234);">
+    <fieldset style="margin-left: 1cm;margin-right: 1cm;">
+        <hr style="height: 2px; border-width: 0px;color:rgb(0, 255, 255); background-color: rgb(0, 225, 255);">
+        <table style="float: left;">
+            <tbody>
+                <tr>
+                    <td><img src="images/kaos.png" alt="Submit" style="margin-left: 1cm;margin-top: 1cm;" width="200" height="250" ></td>
+                </tr>
+                <tr>
+                    <td><input type="file" name="photo" style="margin-left: 1cm;"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div style="float:right;margin-right: 15cm;margin-top: 0.5cm;">
+            <table>
+                <tbody>
+                    <tr style="height: 1cm;">
+                        <td>Title Here</td>
+                        <td>:</td>
+                        <td><input type="text" name="productname" id="productname" size="31"></td>
+                    </tr>
+                    <tr style="height: 1cm;vertical-align: top;">
+                        <td>Description</td>
+                        <td>:</td>
+                        <td><textarea name="description" id="description" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td>Account Number</td>
+                        <td>:</td>
+                        <td><input type="text" name="accountnumber" id="accountnumber"></td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td>Bank</td>
+                        <td>:</td>
+                        <td><input type="text" list="bank" name="bank" style="width: 3.5cm;">
+                            <datalist id="bank">
+                                <option value="Bank Of America"></option>
+                                <option value="TD Bank"></option>
+                                <option value="Capital One"></option>
+                                <option value="HSBC"></option>
+                                <option value="State Farm"></option>
+                                <option value="American Express"></option>
+                                <option value="Capital One"></option>
+                            </datalist></td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td>Account Holder</td>
+                        <td>:</td>
+                        <td><input type="text" name="accountholder" id="accountholder"></td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td>Transaction</td>
+                        <td>:</td>
+                        <td><input type="number" name="transactionnumber" min="1" style="width: 1cm;">
+                        </td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td></td>
+                        <td></td>
+                        <td><span><i>*According to the number of the transaction. </i></span></td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td></td>
+                        <td></td>
+                        <td style="color: rgb(128, 128, 128);"><input type="checkbox" id="sendtophone" name="sendtophone" value="sendtophone">
+                        <label for="sendtophone">Send to Mobile Phone</label><br>
+                        <input type="checkbox" id="sendtoemail" name="sendtoemail" value="sendtoemail">
+                        <label for="sendtoemail">Send to E-Mail</label>
+                    </td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td>Send to Mobile Phone</td>
+                        <td>:</td>
+                        <td><input type="text" name="phonenumber" id="phonenumber" size="31"></td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td>Send to E-Mail</td>
+                        <td>:</td>
+                        <td><input type="text" name="emailaddress" id="emailaddress" size="31"></td>
+                    </tr>
+                    <tr style="height: 1cm;">
+                        <td>Send to E-Mail</td>
+                        <td>:</td>
+                        <td><input type="text" name="emailaddress" id="emailaddress" size="31"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div style="text-align: center;"><input type="submit" value="Generate Link"></div>
+            <br>
+        </div>
+        <hr style="height: 2px; border-width: 0px;color:rgb(0, 225, 255); background-color: rgb(0, 255, 242);float: left;width: 38cm;"> 
+    </fieldset>
+    <br>
+    <span>&ensp;</span>
+    <br>
+    <footer style="position: fixed;left: 0;bottom: 0;width: 100%;background-color: rgb(0, 217, 255);text-align: center;font-size: 20px;">
+        Copyright BMTH distro.id, 2015. All Rights Preserved.
+    </footer>
+    </form>
+</body>
