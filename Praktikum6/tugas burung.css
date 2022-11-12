@@ -1,0 +1,33 @@
+<style>
+        body {
+            background-color: rgb(235, 253, 192);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1 {
+            color: rgb(60, 102, 12);
+            text-align: center;
+            background-color: rgb(253, 181, 87);
+            width: auto;
+            height: 80px;
+            margin: 0%;
+            border-style:dotted; border-color:bisque;
+        }
+        .quote p {
+            background-color: rgb(252, 252, 164);
+            text-align: center;
+            margin: 0%;
+            border-style:dotted; border-color:bisque;
+        }
+        .link {
+            text-align: center;
+        }
+        .menu {
+            text-align: center;
+        }
+        img {
+            width: 20%;
+        }
+        .foto {
+            text-align: center;
+        }
+    </style>
